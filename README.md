@@ -2,6 +2,9 @@
 
 A repository filled with codewars challenges (kata). To enhance my problem solving abilities and deepen my understanding in Javascript.
 
+![image](https://github.com/carminalamit/Codewars/assets/95231683/a7f1df5d-1559-4096-8a9e-f6c765a130e1)
+
+
 ## How It's Made:
 
 **Tech used:** <img src="https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript"/>
