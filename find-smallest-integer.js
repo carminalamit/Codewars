@@ -31,3 +31,13 @@ class SmallestIntegerFinder {
     return smallest; // Step 5
   }
 }
+
+// simplified version
+
+// we use Math.min function to find the smallest integer. 
+// spread operator in (...args) allows the elements of the args array to be expanded as individual arguments to the Math.min function.
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    return Math.min(...args);
+  }
+}
