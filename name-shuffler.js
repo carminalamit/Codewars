@@ -23,3 +23,9 @@ function nameShuffler(str) {
   // Step 4: Return the resulting string
   return shuffledName;
 }
+
+// simplified version
+
+function nameSuffle(str) {
+  return str.split(" ").reverse().join(" ");
+}
