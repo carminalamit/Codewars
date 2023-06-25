@@ -32,3 +32,9 @@ function integrate(coefficient, exponent) {
   // Step 4: Return the resulting string
   return integral;
 }
+
+// other solution
+
+const integrate = (coefficient, exponent) => {
+  return coefficient / (exponent + 1) + "x^" + (exponent + 1);
+};
