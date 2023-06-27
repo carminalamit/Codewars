@@ -33,3 +33,13 @@ function contamination(text, char) {
 
   return mutatedText;
 }
+
+// simplified version
+
+// The repeat method repeats the char string text.length times, effectively creating a mutated text 
+// where every character is replaced by the char. If the text or char is empty, 
+// it will return an empty string as specified in the problem requirements
+
+function contamination(text, char) {
+  return char.repeat(text.length);
+}
