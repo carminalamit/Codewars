@@ -28,7 +28,7 @@ function formatMoney(amount) {
   return result;
 }
 
-//or
+// or
 function formatMoney(amount) {
   return "$" + amount.toFixed(2);
 }
