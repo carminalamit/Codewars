@@ -20,3 +20,9 @@
 function DNAtoRNA(dna) {
   return dna.replace(/T/g, "U");
 }
+
+// other solution
+
+function DNAtoRNA(dna) {
+  return dna.split("T").join("U");
+}
