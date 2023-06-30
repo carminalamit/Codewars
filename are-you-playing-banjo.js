@@ -14,14 +14,24 @@
 // make a conditional that checks that 'R' or 'r' means they're playing banjo otherwise they're not playing banjo
 
 function areYouPlayingBanjo(name) {
-    // name.charAt(0) retrieves the first character of the name string. 
-    //The charAt function is used to access a specific character at a given index in a string.
+  // name.charAt(0) retrieves the first character of the name string.
+  //The charAt function is used to access a specific character at a given index in a string.
 
-    // .toLowerCase() converts the first character to lowercase. This step is performed to make the comparison case-insensitive, 
-    // so it doesn't matter if the first letter is uppercase or lowercase.
+  // .toLowerCase() converts the first character to lowercase. This step is performed to make the comparison case-insensitive,
+  // so it doesn't matter if the first letter is uppercase or lowercase.
   if (name.charAt(0).toLowerCase() === "r") {
     return name + " plays banjo";
   } else {
     return name + " does not play banjo";
   }
+}
+
+// other solution using ternary
+
+function areYouPlayingBanjo(name) {
+  return (
+    name +
+    (name[0].toLowerCase() == "r" ? " plays" : " does not play") +
+    " banjo"
+  );
 }
