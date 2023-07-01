@@ -20,3 +20,12 @@ function abbrevName(name) {
   const initials = names[0][0].toUpperCase() + "." + names[1][0].toUpperCase();
   return initials;
 }
+
+// other solution
+
+function abbrevName(name) {
+  return name
+    .split(" ")
+    .map((i) => i[0].toUpperCase())
+    .join(".");
+}
