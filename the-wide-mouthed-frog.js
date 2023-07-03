@@ -24,3 +24,9 @@ function mouthSize(animal) {
     return "wide";
   }
 }
+
+// other solution
+
+function mouthSize(animal) {
+    return animal.toLowerCase() == 'alligator' ? 'small' : 'wide';
+}
