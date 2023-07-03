@@ -28,3 +28,8 @@ function strCount(str, letter) {
   }
   return count;
 }
+
+// other solution
+function strCount(str, letter) {
+  return str.split(letter).length - 1;
+}
