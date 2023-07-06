@@ -17,3 +17,9 @@ function sayHello(name, city, state) {
   const message = `Hello, ${fullName}! Welcome to ${city}, ${state}!`;
   return message;
 }
+
+// other solution
+
+function sayHello(name, city, state) {
+    return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`
+}
