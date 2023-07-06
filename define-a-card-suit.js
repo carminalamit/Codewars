@@ -30,3 +30,21 @@ function defineSuit(card) {
       return "unknown";
   }
 }
+
+// other solution
+
+function defineSuit(card) {
+  const suitChar = card.slice(-1);
+
+  if (suitChar === "♣") {
+    return "clubs";
+  } else if (suitChar === "♦") {
+    return "diamonds";
+  } else if (suitChar === "♥") {
+    return "hearts";
+  } else if (suitChar === "♠") {
+    return "spades";
+  } else {
+    return "unknown";
+  }
+}
