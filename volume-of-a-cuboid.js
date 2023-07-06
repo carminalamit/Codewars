@@ -14,3 +14,11 @@ class Kata {
     return volume;
   }
 }
+
+// other solution
+
+class Kata {
+  static getVolumeOfCuboid(l, w, h) {
+    return l * w * h;
+  }
+}
