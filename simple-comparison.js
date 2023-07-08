@@ -16,3 +16,8 @@ function add(a, b) {
     return false;
   }
 }
+
+// other solution
+function add(a, b){
+	return a == b 
+}
