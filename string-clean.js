@@ -30,3 +30,11 @@ function stringClean(s) {
 
   return cleanedText;
 }
+
+// other solution
+function stringClean(s) {
+  return s
+    .split("")
+    .filter((n) => n != parseInt(n))
+    .join("");
+}
