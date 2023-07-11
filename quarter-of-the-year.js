@@ -10,6 +10,7 @@
 
 // My Solution
 
+// we can use conditional statement
 const quarterOf = (month) => {
   if (month >= 1 && month <= 3) {
     return 1;
@@ -21,3 +22,9 @@ const quarterOf = (month) => {
     return 4;
   }
 };
+
+// other solution
+
+// const quarterOf = (month) => {
+//   return Math.ceil(month / 3);
+// }
