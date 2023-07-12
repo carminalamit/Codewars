@@ -21,3 +21,8 @@ function dutyFree(normPrice, discount, hol) {
   const numBottles = Math.floor(hol / savingsPerBottle);
   return numBottles;
 }
+
+// other solution
+function dutyFree(normPrice, discount, hol) {
+  return Math.floor((hol / normPrice / discount) * 100);
+}
