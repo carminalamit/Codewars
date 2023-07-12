@@ -12,3 +12,8 @@ function unusualFive() {
   let str = "hello";
   return str.length;
 }
+
+// other solution
+function unusualFive() {
+  return "hello".length;
+}
