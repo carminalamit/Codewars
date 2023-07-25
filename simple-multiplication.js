@@ -17,3 +17,8 @@ function simpleMultiplication(number) {
 // Test cases
 console.log(simpleMultiplication(4)); // Output should be 32 (4 * 8)
 console.log(simpleMultiplication(5)); // Output should be 45 (5 * 9)
+
+// other solution
+function simpleMultiplication(n) {
+    return n * (n % 2 ? 9 : 8);
+}
