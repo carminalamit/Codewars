@@ -30,3 +30,9 @@ function enough(cap, on, wait) {
     return totalPassengers - cap;
   }
 }
+
+// other solution
+
+function enough(cap, on, wait) {
+  return on + wait > cap ? on + wait - cap : 0;
+}
