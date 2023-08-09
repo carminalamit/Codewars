@@ -31,3 +31,9 @@ const todayDate = new Date("2023-08-09"); // Assuming today's date is August 9, 
 const cycleLength = 28; // Assuming the cycle length is 28 days
 
 console.log(periodIsLate(lastPeriod, todayDate, cycleLength)); // Output: true or false based on the actual dates
+
+// other solution
+
+function periodIsLate(last, today, cycleLength) {
+  return (today - last) / 86400000 > cycleLength;
+}
