@@ -30,3 +30,8 @@ function paperwork(n, m) {
 // Example usage
 console.log(paperwork(5, 5)); // Output: 25
 console.log(paperwork(-5, 5)); // Output: 0
+
+// other solution
+function paperwork(n, m) {
+  return n > 0 && m > 0 ? n * m : 0;
+}
